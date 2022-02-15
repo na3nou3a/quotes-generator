@@ -33,7 +33,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1450px;
+  max-width: 1750px;
   margin: 0 auto;
 }
 
@@ -48,6 +48,7 @@ header {
 }
 
 .title {
+  font-size: 2.5rem;
   color: #fff;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   line-height: 1;
@@ -93,6 +94,8 @@ header {
 }
 
 .author {
+  font-size: 0.82rem;
+  color: #666;
   text-align: right;
   padding: 0.5rem 0.5rem 0 0.5rem;
 }
