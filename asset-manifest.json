@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/quotes-generator/static/css/main.c5c214da.chunk.css",
+    "main.css": "/quotes-generator/static/css/main.07fb6605.chunk.css",
     "main.js": "/quotes-generator/static/js/main.4bc4a645.chunk.js",
     "main.js.map": "/quotes-generator/static/js/main.4bc4a645.chunk.js.map",
     "runtime-main.js": "/quotes-generator/static/js/runtime-main.371c0485.js",
@@ -9,10 +9,10 @@
     "static/js/2.5858aca2.chunk.js": "/quotes-generator/static/js/2.5858aca2.chunk.js",
     "static/js/2.5858aca2.chunk.js.map": "/quotes-generator/static/js/2.5858aca2.chunk.js.map",
     "index.html": "/quotes-generator/index.html",
-    "precache-manifest.a682e2949d27fc2415bef0e65e66523e.js": "/quotes-generator/precache-manifest.a682e2949d27fc2415bef0e65e66523e.js",
+    "precache-manifest.c3b2d71a60dc951a9f9ad72807934c16.js": "/quotes-generator/precache-manifest.c3b2d71a60dc951a9f9ad72807934c16.js",
     "service-worker.js": "/quotes-generator/service-worker.js",
     "static/css/2.709e72d0.chunk.css.map": "/quotes-generator/static/css/2.709e72d0.chunk.css.map",
-    "static/css/main.c5c214da.chunk.css.map": "/quotes-generator/static/css/main.c5c214da.chunk.css.map",
+    "static/css/main.07fb6605.chunk.css.map": "/quotes-generator/static/css/main.07fb6605.chunk.css.map",
     "static/js/2.5858aca2.chunk.js.LICENSE.txt": "/quotes-generator/static/js/2.5858aca2.chunk.js.LICENSE.txt",
     "static/media/index.css": "/quotes-generator/static/media/floral-g5aeb8fe4d_640.7aadf21b.jpg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.371c0485.js",
     "static/css/2.709e72d0.chunk.css",
     "static/js/2.5858aca2.chunk.js",
-    "static/css/main.c5c214da.chunk.css",
+    "static/css/main.07fb6605.chunk.css",
     "static/js/main.4bc4a645.chunk.js"
   ]
 }
