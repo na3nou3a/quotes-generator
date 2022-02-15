@@ -1,0 +1,147 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+:root {
+  --clr-blue: #0a0a49;
+  --clr-green1: #198754;
+  --clr-green2: #24c77b;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.wrapper {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+main {
+  background-image: url('./floral-g5aeb8fe4d_640.jpg');
+  background-repeat: repeat;
+  min-height: calc(100vh - 150px);
+}
+
+header {
+  background-color: var(--clr-green2);
+}
+
+.title {
+  color: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.quote-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 96%;
+  max-width: 1000px;
+  min-height: 300px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.quote-text {
+  max-width: 85ch;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+.blockquote {
+  padding: 0.5rem;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.6);
+  min-height: 250px;
+  margin: 0;
+  border: 16px solid var(--bs-green);
+  color: var(--clr-blue);
+}
+
+.author {
+  text-align: right;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.next-btn {
+  display: inline-block;
+  background-color: var(--clr-green1);
+  border: 1px solid #fff;
+  color: black;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.next-btn:hover {
+  color: #fff;
+  background-color: #013d21;
+}
+.icon {
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+.icon:hover {
+  border-color: var(--clr-blue);
+}
+
+@media (min-width: 750px) {
+  html {
+    font-size: 18px;
+  }
+  .quote-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 1.5rem;
+  }
+
+  .blockquote {
+    min-width: 700px;
+    margin-right: 1.5rem;
+  }
+
+  .next-btn {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .blockquote {
+    min-width: 800px;
+  }
+}
